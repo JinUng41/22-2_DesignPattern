@@ -21,3 +21,35 @@
     - 실체화
 
 <br>
+
+## 싱글턴패턴
+
+<br>
+
+## 객체지향원리
+  - 추상화
+  - 캡슐화
+  - 클래스
+  - 정보 은닉
+  - 일반화 관계
+  - 위임
+  - 피터 코드의 상속 규칙
+
+<br>
+
+## Builder 패턴
+  - Telescoping Constructor 패턴
+  - JavaBeans 패턴
+  - Builder 패턴
+  - Lombok
+
+<br>
+
+## SOLID
+  - SRP
+  - OCP
+  - LSP
+  - ISP
+  - DIP
+
+<br>
