@@ -50,7 +50,7 @@
 <br>
 
 ## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/6">SOLID</href>
-  - SRP
+  - <span style="color:red">SRP</span>
   - OCP
   - LSP
   - ISP
