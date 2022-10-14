@@ -23,10 +23,14 @@
 <br>
 
 ## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/3">싱글턴패턴</href>
+  - 싱글턴
+  - race condition
+  - DCL
+  - Initialization on demand / lazy holder idiom
 
 <br>
 
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/4>객체지향원리</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/4">객체지향원리</href>
   - 추상화
   - 캡슐화
   - 클래스
@@ -37,7 +41,7 @@
 
 <br>
 
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/5>Builder 패턴</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/5">Builder 패턴</href>
   - Telescoping Constructor 패턴
   - JavaBeans 패턴
   - Builder 패턴
