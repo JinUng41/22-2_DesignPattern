@@ -72,8 +72,3 @@
   
 <br>
 
-=======
-=======
-
->>>>>>> Stashed changes
->>>>>>> Stashed changes
