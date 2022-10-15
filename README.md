@@ -1,5 +1,6 @@
 # 22-2_DesignPattern
 22년 3학년 2학기 설계 패턴을 들으며 정리한 내용
+<<<<<<< Updated upstream
 <br>
 ## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/1">what is Design Pattern?</href>
   - 디자인 패턴이란?
@@ -57,6 +58,7 @@
   - DIP
 
 <br>
+<<<<<<< Updated upstream
 
 ## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/7">Strategy</a>
   - 스트래티지 패턴
@@ -70,3 +72,8 @@
   
 <br>
 
+=======
+=======
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
