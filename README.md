@@ -58,7 +58,7 @@
   - DIP
 
 <br>
-<<<<<<< Updated upstream
+
 
 ## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/7">Strategy</a>
   - 스트래티지 패턴
