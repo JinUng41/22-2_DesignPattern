@@ -57,3 +57,16 @@
   - DIP
 
 <br>
+
+## Strategy
+  - 스트래티지 패턴
+  - 전략
+  
+<br>
+
+## Command
+  - 커맨드 패턴
+  - Strategy vs Command
+  
+<br>
+
