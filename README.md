@@ -58,13 +58,13 @@
 
 <br>
 
-## Strategy
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/7">Strategy</a>
   - 스트래티지 패턴
   - 전략
   
 <br>
 
-## Command
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/8">Command</a>
   - 커맨드 패턴
   - Strategy vs Command
   
