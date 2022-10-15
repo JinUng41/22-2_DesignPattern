@@ -9,7 +9,7 @@
   
 <br>
 
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/2">UML 모델링</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/2">UML 모델링</a>
   - 클래스 다이어그램
   - 순차 다이어그램
   - UML
@@ -23,7 +23,7 @@
 
 <br>
 
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/3">싱글턴패턴</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/3">싱글턴패턴</a>
   - 싱글턴
   - race condition
   - DCL
@@ -31,7 +31,7 @@
 
 <br>
 
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/4">객체지향원리</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/4">객체지향원리</a>
   - 추상화
   - 캡슐화
   - 클래스
@@ -42,7 +42,7 @@
 
 <br>
 
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/5">Builder 패턴</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/5">Builder 패턴</a>
   - Telescoping Constructor 패턴
   - JavaBeans 패턴
   - Builder 패턴
@@ -50,7 +50,7 @@
 
 <br>
 
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/6">SOLID</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/6">SOLID</a>
   - SRP
   - OCP
   - LSP
