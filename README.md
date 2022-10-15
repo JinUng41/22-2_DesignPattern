@@ -2,7 +2,7 @@
 22년 3학년 2학기 설계 패턴을 들으며 정리한 내용
 
 <br>
-## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/1">what is Design Pattern?</href>
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/1">what is Design Pattern?</a>
   - 디자인 패턴이란?
   - 디자인 패턴이 주는 이점
   - GoF 
