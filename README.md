@@ -73,3 +73,24 @@
   
 <br>
 
+
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/9">Observer</a>
+  - 행위 패턴
+  - 데이터 변경을 통보
+
+  
+<br>
+
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/10">Decorator</a>
+  - 구조 패턴
+  - 기본 기능에 추가할 수 있는 기능의 종류가 많을 때,,,
+
+
+<br>
+
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/11">Template Method</a>
+- 행위 패턴
+- 코드의 중복을 최소화
+
+<br>
+
