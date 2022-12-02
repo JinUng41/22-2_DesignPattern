@@ -1,0 +1,86 @@
+# Observer Pattern
+
+>행위 behavioral 패턴
+
+## 옵서버 패턴
+
+- 데이터의 변경이 발생하였을 때,
+- 상대 클래스 및 객체에 의존하지 않으면서
+- 데이터 변경을 통보하고자 할 때
+
+<br>
+
+- 옵서버 패턴은 통보 대상 객체의 관리를 Subject 클래스와 Observer 인터페이스로 일반화한다.
+- 그러면 데이터 변경을 통보하는 클래스 (ConcreteSubject)는 통보 대상 클래스/객체(ConcreteObserver)에 대한 의존성을 제거할 수 있다.
+- 결과적으로 옵서버 패턴은 통보 대상 클래스나 대상 객체의 변경에도 ConcreteSubject 클래스를 수정 없이 그대로 사용할 수 있도록 한다.
+
+<br>
+
+
+- Subject
+    - ConcreteObserver 객체를 관리하는 abstract 클래스
+- Observer
+    - interface, 다중성 : *
+    - 데이터의 변경을 통보 받는 인터페이스
+- ConcreteSubject
+    - 변경 관리 대상이 되는 데이터가 있는 클래스
+- ConcreteObserver
+    - ConcreteSubject의 변경을 통보 받는 클래스
+
+
+<br>
+
+# Decorator Pattern
+
+>구조 structural 패턴
+
+## 데커레이터 패턴
+
+- 기본 기능에 추가할 수 있는 기능의 종류가 많은 경우
+
+<br>
+
+
+- 데코레이터 패턴은 기본 기능에 추가될 수 있는 많은 수의 부가 기능에 대해서 다양한 조합을 동적으로 구현할 수 있는 패턴이다.
+
+<br>
+
+
+- 데커레이터 패턴은 새로운 부가 기능에 대해 OCP를 만족하는 설계이다.
+- Component
+    - 기본 기능을 뜻하는 ConcreteComponent와 추가 기능을 뜻하는 Decorator의 공통 기능을 정의
+- ConcreteComponent
+    - 기본 기능을 구현하는 클래스
+- Decorator
+    - 많은 수가 존재하는 구체적인 Decorator의 공통 기능을 정의
+- ConcreteDecorator A,B,,,,
+    - 기본 기능에 추가되는 개별적인 기능을 정의
+
+
+<br>
+
+
+# Template Method Pattern
+
+>행위 behavioral 패턴
+
+## 템플릿 메서드 패턴
+
+- 전체적으로 동일하면서 부분적으로 상이한 문장을 가지는 메소드의 코드 중복을 최소화할 때 유용
+
+<br>
+
+
+- 템플릿 메소드 패턴은 전체적인 알고리즘을 구현하면서 상이한 부분은 하위 클래스에서 구현할 수 있도록 해 주는 디자인 패턴으로서 전체적인 알고리즘의 코드를 재사용하는 데 유용하다.
+
+<br>
+
+
+- AbstractClass
+    - 템플릿 메서드를 정의하는 클래스
+    - 하위 클래스에 공통 알고리즘을 정의하고,
+    - 하위 클래스에서 구현될 기능을 primitive Operation으로 정의
+- ConcreteClass
+    - 상위 클래스에 구현된 템플릿 메서드의 일반적인 알고리즘에서
+    - 하위 클래스에 적합하게 primitive Operation을 오버라이드하는 클래스
+- primitive 메서드 = Hook 메서드
