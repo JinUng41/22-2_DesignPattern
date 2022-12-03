@@ -84,3 +84,62 @@
     - 상위 클래스에 구현된 템플릿 메서드의 일반적인 알고리즘에서
     - 하위 클래스에 적합하게 primitive Operation을 오버라이드하는 클래스
 - primitive 메서드 = Hook 메서드
+
+<br>
+
+# Factory Method Pattern
+
+>생성 creational 패턴
+
+- 종류가 변경되거나 추가될 때,
+- 변경이 자주 일어나는 부분을 클래스로 캡슐화한다.
+
+
+<br>
+
+- Factory Method로 캡슐화를 했을 때,
+- 새로운 종류가 추가되어도 Factory Method만 수정하면 된다.
+
+<br>
+
+## GoF의 Factory Method 패턴
+
+- Gang of Four
+- Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+- 객체를 생성하기 위해 인터페이스를 정의하지만,
+- 어떤 클래스의 인스턴스를 생성할지에 대한 결정은 하위클래스가 담당
+
+- Product
+    - 팩토리 메서드로 생성될 객체의 공통 인터페이스
+- ConcreteProduct
+    - 구체적으로 객체가 생성되는 클래스
+- Creator
+    - 팩토리 메서드를 갖는 클래스
+- ConcreteCreator
+    - 팩토리 메서드를 구현하는 클래스로서 ConcreteProduct 객체를 생성
+
+<br>
+
+### Template method 활용
+- 상위 클래스에서는 일반적인 흐름을 정의하고,
+- 하위 클래스에서는 특정 부분을 재정의한다.
+
+<br>
+
+# Abstract Factory Pattern
+
+>생성 creational 패턴
+
+## 추상 팩토리 패턴
+
+- 관련성이 있는 여러 종류의 객체를 일관된 방식으로 생성하는 경우에 유용
+- 추상 팩토리 패턴은 관련성이 있는 여러 종류의 객체들을 일관된 방식으로 생성할 때 유용하다.
+
+- AbstractFactory
+    - 실제 팩토리 클래스의 공통 인터페이스
+- ConcreteFactory
+    - 구체적인 팩토리 클래스로 AbstractFactory의 추상 메서드를 오버라이드 함으로써 구체적인 제품을 생성
+- AbstractProduct
+    - 제품의 공통 인터페이스
+- ConcreteProduct
+    - 구체적인 팩토리 클래스에서 생성되는 구체적인  제품
