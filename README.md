@@ -94,3 +94,14 @@
 
 <br>
 
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/12">Factory Method</a>
+- 생성 패턴
+- Gof Factory Method
+- 변경이 자주 일어나는 부분은 클래스로 캡슐화
+
+<br>
+
+## <a href="https://github.com/JinUng41/22-2_DesignPattern/issues/13">Abstract Factory Method</a>
+- 생성 패턴
+- 관련 있는 여러 객체를 일관된 방식으로 생성
+
